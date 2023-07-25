@@ -8,3 +8,8 @@ function themechange() {
     cl3 = document.getElementById("list")
     cl3.classList.toggle("text-dark")
 }
+
+function navopen(){
+    cl = document.getElementById("nav")
+    cl.classList.toggle("nav-close")
+}
